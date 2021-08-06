@@ -28,9 +28,10 @@ html, body, header, main, footer, article, div, span, p, a, figure, img, small, 
     list-style: none;
 }
 .container {
-    width: 100%;
-    max-width: 850px;
     margin: 0 auto;
+    max-width: 850px;
+    padding: 0 30px;
+    width: 100%;
 }
 .hidden{
     display: none;
@@ -49,45 +50,98 @@ header .linha{
 }
 header .linha__coluna{}
 header a{}
-header a.figure{}
-header a.figure.img{}
+header a figure{}
+header a figure img{
+    width: 115px;
+}
 header ul{}
 header ul li{
     display: inline-block;
-    margin-left: 10px;
 }
 header ul li a{}
-header ul li a img{}
+header ul li a img{
+    width: 18px;
+}
 /*FOOTER*/
 
 /*PÁGINA INICIAL*/
-main{}
+main{
+    overflow: hidden;
+}
 main article{}
 main article .container{}
-main article .secaoSobreUsuario{}
+main article .secaoSobreUsuario{
+}
 main article .secaoSobreUsuario .linha{}
 main article .secaoSobreUsuario .linha__coluna{}
 main article .secaoSobreUsuario figure{}
-main article .secaoSobreUsuario figure img{}
+main article .secaoSobreUsuario figure img{
+    width: 90px;
+}
 
 main article .secaoSobreUsuario .sobreUsuario{}
-main article .secaoSobreUsuario .SobreUsuario .sobreUsuario__nome h2{}
-main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__nome button{}
-main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__nome {
+    display: flex;
+    align-items: center;
+}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__nome h2{
+    margin: 0;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__nome button{
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 7px 4px;
+}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores {
+    margin-top: 20px;
+}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul{
+    display: flex;
+    text-align: center;
+}
 main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul li{}
-main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul li a{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul li a{
+    color: black;
+}
 main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul li a strong{}
-main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao{}
-main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao h3{}
-main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao p{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao{
+    margin-top: 25px;
+}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao h3{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao p{
+    font-size: 0.8rem;
+}
 main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao p a{}
 
 main article .secaoDestaquesUsuario{}
-main article .secaoDestaquesUsuario ul{}
-main article .secaoDestaquesUsuario ul li{}
+main article .secaoDestaquesUsuario ul{
+    display: flex;
+    font-size: 0.6rem;
+    margin-top: 30px;
+    overflow-x: scroll;
+    justify-content: space-between;
+}
+main article .secaoDestaquesUsuario ul li{
+    margin-right: 10px;
+    text-align: center;
+}
 main article .secaoDestaquesUsuario ul li figure{}
-main article .secaoDestaquesUsuario ul li figure img{}
-main article .secaoDestaquesUsuario ul li h3{}
+main article .secaoDestaquesUsuario ul li figure img{
+    width: 60px;
+}
+main article .secaoDestaquesUsuario ul li h3{
+    font-size: 0.6rem;
+    margin: 0;
+}
 
 
 

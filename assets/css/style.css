@@ -1,0 +1,98 @@
+
+/*
+Theme Name: Kenziegram
+Author: Kenzie Academy
+Description: Esse é o kenziegram
+--------------------------------------------
+ESTRUTURAÇÃO BASE (HC Desenvolvimentos v1)
+--------------------------------------------
+**** GERAL
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @media
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/* GERAL */
+html, body, header, main, footer, article, div, span, p, a, figure, img, small, ul, li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    outline: none;
+    list-style: none;
+}
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.hidden{
+    display: none;
+}
+/*BODY*/
+body{}
+body{}
+/*HEADER*/
+header{
+    padding: 12px 0;
+}
+header .container{}
+header .linha{
+    display: flex;
+    justify-content: space-between;
+}
+header .linha__coluna{}
+header a{}
+header a.figure{}
+header a.figure.img{}
+header ul{}
+header ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+header ul li a{}
+header ul li a img{}
+/*FOOTER*/
+
+/*PÁGINA INICIAL*/
+main{}
+main article{}
+main article .container{}
+main article .secaoSobreUsuario{}
+main article .secaoSobreUsuario .linha{}
+main article .secaoSobreUsuario .linha__coluna{}
+main article .secaoSobreUsuario figure{}
+main article .secaoSobreUsuario figure img{}
+
+main article .secaoSobreUsuario .sobreUsuario{}
+main article .secaoSobreUsuario .SobreUsuario .sobreUsuario__nome h2{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__nome button{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul li{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul li a{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__seguidores ul li a strong{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao h3{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao p{}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__descricao p a{}
+
+main article .secaoDestaquesUsuario{}
+main article .secaoDestaquesUsuario ul{}
+main article .secaoDestaquesUsuario ul li{}
+main article .secaoDestaquesUsuario ul li figure{}
+main article .secaoDestaquesUsuario ul li figure img{}
+main article .secaoDestaquesUsuario ul li h3{}
+
+
+
+
+
+/*EXTRAS*/
+
+/*@media*/
